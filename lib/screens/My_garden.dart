@@ -22,27 +22,27 @@ class GardenPage extends StatelessWidget {
             PlantCard(
               name: "Polypodiopsida",
               status: "Good",
-              image: "../assets/images/plant1.png",
+              image: "assets/images/plant1.png",
             ),
             PlantCard(
               name: "Snake Plant",
               status: "Need water",
-              image: "../assets/images/plant2.png",
+              image: "assets/images/plant2.png",
             ),
             PlantCard(
               name: "Areca Palm",
               status: "Good",
-              image: "../assets/images/plant3.png",
+              image: "assets/images/plant3.png",
             ),
             PlantCard(
               name: "Snake Plant",
               status: "Need water",
-              image: "../assets/images/plant2.png",
+              image: "assets/images/plant2.png",
             ),
             PlantCard(
               name: "Areca Palm",
               status: "Good",
-              image: "../assets/images/plant3.png",
+              image: "assets/images/plant3.png",
             ),
           ],
         ),
@@ -91,7 +91,7 @@ class PlantCard extends StatelessWidget {
         ),
         child: Row(
           children: [
-            // 🗑 DELETE BUTTON
+            // DELETE BUTTON
             IconButton(
               icon: const Icon(Icons.delete_outline, color: Colors.green),
               onPressed: () {},
@@ -152,7 +152,7 @@ class PlantCard extends StatelessWidget {
                 image,
                 height: 70,
                 width: 70,
-                fit: BoxFit.cover,
+                fit: BoxFit.contain,
               ),
             ),
           ],

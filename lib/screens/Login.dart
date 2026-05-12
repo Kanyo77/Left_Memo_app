@@ -10,7 +10,7 @@ class LoginPage extends StatelessWidget {
           Positioned.fill(
             child: Image.asset(
               //wallpaper.png
-              "../assets/images/wallpaper.png",
+              "assets/images/wallpaper.png",
               fit: BoxFit.cover,
             ),
           ),
@@ -26,7 +26,7 @@ class LoginPage extends StatelessWidget {
                 Spacer(),
 
                 Image.asset(
-                  "../assets/images/logo.png",
+                  "assets/images/logo3.png",
                   height: 211,
                   fit: BoxFit.contain,
                 ),
@@ -34,7 +34,7 @@ class LoginPage extends StatelessWidget {
                 SizedBox(height: 20),
 
                 Text(
-                  "Leaf Neno",
+                  "Leaf Meno",
                   style: TextStyle(
                     fontSize: 42,
                     fontWeight: FontWeight.w500,
@@ -73,7 +73,7 @@ class LoginPage extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Image.asset("../assets/images/icon.png", height: 22),
+                        Image.asset("assets/images/icon.png", height: 22),
                         SizedBox(width: 10),
                         Text(
                           "Continue with Google",

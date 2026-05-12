@@ -1,13 +1,33 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 import './screens/Login.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: LoginPage(), debugShowCheckedModeBanner: false);
+    return ScreenUtilInit(
+
+      // kích thước thiết kế gốc
+      designSize: const Size(390, 844),
+
+      minTextAdapt: true,
+      splitScreenMode: true,
+
+      builder: (context, child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: child,
+        );
+      },
+
+      child: LoginPage(),
+    );
   }
 }

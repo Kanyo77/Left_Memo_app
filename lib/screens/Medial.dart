@@ -42,7 +42,7 @@ class MedialPage extends StatelessWidget {
         children: [
           ListTile(
             leading: CircleAvatar(
-              backgroundImage: AssetImage("../assets/images/avartar1.png"),
+              backgroundImage: AssetImage("assets/images/avartar1.png"),
             ),
             title: Text(
               "Anna Leo",
@@ -60,7 +60,7 @@ class MedialPage extends StatelessWidget {
 
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
-            child: Image.asset("../assets/images/post1.png"),
+            child: Image.asset("assets/images/post1.png"),
           ),
 
           SizedBox(height: 10),

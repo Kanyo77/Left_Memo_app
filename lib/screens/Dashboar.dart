@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 class DashboardPage extends StatelessWidget {
 
   final List<String> plants = [
-    "../assets/images/plant/plant_2.png",
-    "../assets/images/plant/plant_1.png",
-    "../assets/images/plant/plant_3.png",
-    "../assets/images/plant/plant_4.png",
-    "../assets/images/plant/plant_5.png",
-    "../assets/images/plant/plant_6.png",
-    "../assets/images/plant/plant_7.png",
-    "../assets/images/plant/plant_8.png",
+    "assets/images/plant/plant_2.png",
+    "assets/images/plant/plant_1.png",
+    "assets/images/plant/plant_3.png",
+    "assets/images/plant/plant_4.png",
+    "assets/images/plant/plant_5.png",
+    "assets/images/plant/plant_6.png",
+    "assets/images/plant/plant_7.png",
+    "assets/images/plant/plant_8.png",
   ];
     @override
 
