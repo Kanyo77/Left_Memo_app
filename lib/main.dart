@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
 
-      // kích thước thiết kế gốc
       designSize: const Size(390, 844),
 
       minTextAdapt: true,
